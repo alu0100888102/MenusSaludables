@@ -1,4 +1,4 @@
-package MenusSaludables;
+package menusSaludables;
 
 import java.util.*;
 

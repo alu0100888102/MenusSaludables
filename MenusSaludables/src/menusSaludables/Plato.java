@@ -1,4 +1,4 @@
-package MenusSaludables;
+package menusSaludables;
 
 public class Plato{
 	private String nombre;
