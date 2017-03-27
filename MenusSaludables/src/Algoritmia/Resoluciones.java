@@ -7,6 +7,12 @@ import menusSaludables.*;
 public class Resoluciones {
 	Menu menu;
 
+	public Resoluciones(){
+		menu = new Menu();
+	}
+	public Resoluciones(Menu m){
+		menu = m;
+	}
 	public int solveRecursive(){
 		menu.reset();
 		return solveRecursiveStep(menu.getPlatos(), menu.getPlatos().size()-1, menu.getNocivoRestante());

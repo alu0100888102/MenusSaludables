@@ -41,6 +41,8 @@ public class Plato{
 		this.nombre = nombre;
 	}
 	
-	
+	public String toString(){
+		return getNombre() + ": " + getNutrientes() + " nutrientes saludables, " +  getNocivos() + " nutrientes nocivos.";
+	}
 	
 }

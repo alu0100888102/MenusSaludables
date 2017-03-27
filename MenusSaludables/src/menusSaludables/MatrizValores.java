@@ -4,8 +4,8 @@ import java.util.*;
 
 public class MatrizValores {
 	private ArrayList<ArrayList<Integer>> matrix;
-	int numPlatos;
-	int umbral;
+	private int numPlatos;
+	private int umbral;
 
 	public MatrizValores(){
 		matrix = new ArrayList<ArrayList<Integer>>();
