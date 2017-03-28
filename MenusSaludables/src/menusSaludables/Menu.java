@@ -1,24 +1,32 @@
+/**
+ * PRACTICA 3: Programación dinámica
+ * 
+ * Esta clase representa el menú. Contiene los platos y los datos generales.
+ * 
+ * @author alu0100888102
+ * @version 1.0
+ * Ángel Hamilton Lopez
+ * alu0100888102@ull.es
+ */
+
 package menusSaludables;
 
 import java.util.*;
 import java.io.*;
 
 public class Menu {
-	private MatrizValores matriz;
 	private ArrayList<Plato> platos;
 	private int nutrientesTotal;
 	private int nocivoUmbral;
-	private int nocivoTotal;
 	
+	//constructores
 	public Menu(){
 		platos = new ArrayList<Plato>();
 		nocivoUmbral =0;
-		reset();
 	}
 	public Menu(File input){
 		platos = new ArrayList<Plato>();
 		nocivoUmbral =0;
-		reset();
 		try{
 			FileInputStream istream = new FileInputStream(input);
 			 
@@ -48,18 +56,7 @@ public class Menu {
 		}
 	}
 	
-	public void reset(){
-		matriz = new MatrizValores(platos.size(), nocivoUmbral);
-		nocivoTotal = 0;
-		nutrientesTotal =0;
-	}
-	
-	public MatrizValores getMatriz() {
-		return matriz;
-	}
-	public void setMatriz(MatrizValores matriz) {
-		this.matriz = matriz;
-	}
+	//setters y getters
 	public ArrayList<Plato> getPlatos() {
 		return platos;
 	}
@@ -77,14 +74,5 @@ public class Menu {
 	}
 	public void setNocivoUmbral(int nocivoUmbral) {
 		this.nocivoUmbral = nocivoUmbral;
-	}
-	public int getNocivoTotal() {
-		return nocivoTotal;
-	}
-	public void setNocivoTotal(int nocivoTotal) {
-		this.nocivoTotal = nocivoTotal;
-	}
-	public int getNocivoRestante(){
-		return getNocivoTotal() - getNocivoUmbral();
 	}
 }

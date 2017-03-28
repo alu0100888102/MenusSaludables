@@ -2,6 +2,6 @@
 110
 Ensalada 10 10
 Arvejas 60 20
-Carne cabra 180 50
+CarneCabra 180 50
 Rapadura 220 60
 Escaldón 280 70

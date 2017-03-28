@@ -1,3 +1,14 @@
+/**
+ * PRACTICA 3: Programación dinámica
+ * 
+ * Esta clase representa un plato, guardando los datos de este (valor nutriciona, nutrientes nocivos, nombre)
+ * 
+ * @author alu0100888102
+ * @version 1.0
+ * Ángel Hamilton Lopez
+ * alu0100888102@ull.es
+ */
+
 package menusSaludables;
 
 public class Plato{
@@ -5,6 +16,7 @@ public class Plato{
 	private int nutrientes;
 	private int nocivos;
 	
+	//constructores
 	public Plato(){
 		setNutrientes(Integer.MIN_VALUE);
 		setNocivos(Integer.MAX_VALUE);
@@ -15,6 +27,10 @@ public class Plato{
 		setNocivos(no);
 		setNombre(name);
 	}
+	/**
+	 * Este constructor construye el plato a partir de un string
+	 * @param linea
+	 */
 	public Plato (String linea){
 		String division[] = linea.split("\\s+");
 		nombre = division[0];
@@ -22,6 +38,7 @@ public class Plato{
 		nocivos = Integer.parseInt(division[2]);
 	}
 	
+	//setters y getters
 	public int getNutrientes() {
 		return nutrientes;
 	}
