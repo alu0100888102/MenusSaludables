@@ -73,9 +73,6 @@ public class MatrizValores {
 				row.add(-1);
 		matrix.set(n, row);
 	}
-	public void setRow(ArrayList<Integer> row){
-		setRow(getMatrix().size() - 1, row);
-	}
 	public int getElement(int row, int index){
 		if(index < 0 || index > umbral)
 			throw new IllegalArgumentException("Elemento invalido");
