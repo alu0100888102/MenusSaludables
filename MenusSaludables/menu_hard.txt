@@ -1,0 +1,26 @@
+24
+6404180
+Ensalada					825594		382745
+Arvejas						1677009		799601
+Carnecabra				1676628		909247
+Rapadura					1523970		729069
+Chopitos					943972		467902
+Escaldón					97426			44328
+Quesillo					69666			34610
+Carnefiesta			1296457		698150
+Calamares					1679693		823460
+Quesoasado				1902996		903959
+Potajeberros			1844992		853665
+Ranchocanario		1049289		551830
+Quesadilla				1252836		610856
+Papasarrugadas		1319836		670702
+Batatasfritas		953277		488960
+Cherne						2067538		951111
+Chopitos					675367		323046
+PríncipeAlberto	853655		446298
+Chistorras				1826027		931161
+Frangollo					65731			31385
+Sancocho					901489		496951
+Gofioamasado			577243		264724
+Bienmesabe				466257		224916
+Salemas						369261		169684

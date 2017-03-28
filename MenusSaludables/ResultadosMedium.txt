@@ -1,0 +1,7 @@
+Valor nutricional: 1735.
+
+Puntuación de nutrientes poco saludables: 169.
+
+Platos incluidos en el menú confeccionado: Gofio amasado, Quesadilla, Carne cabra.
+
+Tamaño de la tabla utilizada por un algoritmo de programación dinámica suponiendo que cada una de las entradas de la misma ocupa 4 bytes: 5472 bytes.

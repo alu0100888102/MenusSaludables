@@ -130,12 +130,15 @@ public class Resoluciones {
 		String out = new String();
 		out += "Los platos que hemos incluido son:\n";
 		int j = nocivoLeft;
+		int nocivos=0;
 		for(int i = index; i > 0; i--){
 			if((list.get(i-1).getNocivos() <= j) && ((matrix.getElement(i-1, j-(list.get(i-1).getNocivos())) + list.get(i-1).getNutrientes()) == matrix.getElement(i, j))){
 				out += list.get(i-1)+"\n";
 				j= j-list.get(i-1).getNocivos();
+				nocivos += list.get(i-1).getNocivos();
 			}
 		}
+		out += "Nutrientes nocivos totales: " + nocivos +"\n";
 		return out;
 	}
 }

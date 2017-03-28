@@ -1,0 +1,8 @@
+Valor nutricional: 13549094.
+
+Puntuación de nutrientes poco saludables: 6019815.
+
+Platos incluidos en el menú confeccionado: Salemas, Bienmesabe, Gofio amasado, Cherne, Quesadilla, Potaje berros, Queso asado, EscaldÃ³n, Chopitos, Rapadura, Arvejas
+
+
+Tamaño de la tabla utilizada por un algoritmo de programación dinámica suponiendo que cada una de las entradas de la misma ocupa 4 bytes: 648 bytes.
